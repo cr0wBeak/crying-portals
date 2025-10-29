@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "cr0wbeak.cryingportals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NetherPortalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
